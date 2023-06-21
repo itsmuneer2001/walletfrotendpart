@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #b3c740;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  h1 {
+    margin: 0;
+    font-family: 'Acme', sans-serif;
+  }
+  nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+  }
+  section {
+    padding: 20px;
+    text-align: center;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  #selectAbout{
+      background-color: transparent;
+      border: none;
+      width: 16px;
+  }
+  #selectService{
+      border: none;
+      background-color: transparent;
+      width: 16px;
+  }
+  #signupButton{
+      background-color:coral;
+      height: 30px;
+      width: 80px;
+      border-radius: 5px;
+  }
+  #div2{
+  width: 40%;
+  border: 1px solid white;
+  box-shadow: 5px 5px 8px black;
+  margin-top: 100px;
+  line-height: 45px;
+  background-image: linear-gradient(black,orange);
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 10px;
+  color: white;
+}
+#logo{
+  width: 100px;
+  height: 60px;
+  float: right;
+  position: relative;
+  top: -50px;
+  left: -5px;
+}
+#name{
+  border-color: tomato;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignupPage</title>
+    <link rel="stylesheet" href="./signup.css">
+    <!-- this link is google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+    <!-- this link is icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+</head>
+<body>
+    <div class="maindiv">
+        <h2 id="resi_h2">Registration Form</h2>
+            <br>
+            <h1 id="success"></h1>
+        <form action="" id="form">
+            <div class="divform">
+                <span id="id_error"></span><br>
+                <input type="text" id="id" name="id" placeholder="Enter the Id"  style="position: relative; left: 10%; width:50% ;" >
+            </div>
+            <div class="divform">
+                <span id="name_error"></span><br>
+                <input type="text" id="name" name="name" required onkeyup="bg_color()" placeholder="Enter Your Name"  style="position: relative; left: 10%; width:50% ;">
+            </div>
+            <div class="divform">
+                <span id="phone_error"></span><br>
+                <input type="number" id="number" name="number"  placeholder="Enter Your PhoneNumber"  style="position: relative; left: 10%; width:50% ;">
+            </div>
+            <div class="divform">
+                <span id="email_error"></span><br>
+                <input type="email" id="email" name="email" oninput="onInputEmail()" placeholder="Enter Your Email" style="position: relative; left: 10%; width:50% ;">
+            </div>
+            <div class="divform">
+                <span id="pass_error"></span><br>
+                <input type="text" id="password" name="password" autocomplete="current-password" onclick="passwordValidate()" placeholder="Enter Your Password"  style="position: relative; left: 10%; width:50% ;">
+            </div>
+            <div class="divform">
+                    <button type="submit" id="button1" onclick="registerfu()" onclick="validatePhoneNumber()">Register</button> <span style="margin-left: 55px; color: coral;">Or</span>
+            </div>
+            <div class="divform">
+                <button type="submit" id="button2" onclick="login()">Login</button>
+        </div>
+        </form>
+    </div>
+    <script src="./signup.js"></script>
+</body>
+</html>

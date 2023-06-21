@@ -1,0 +1,26 @@
+[
+    {
+        "facultyNmae":"Muneer",
+        "expert":"java",
+        "Image":"https://cdn.pixabay.com/photo/2023/05/31/18/15/st-stephens-basilica-8031985_1280.jpg"
+    },
+    {"facultyNmae":"Kamran",
+    "expert":"Data Base",
+    "Image":"image1.webp"
+},
+    {
+        "facultyName":"Akshay",
+        "expert":"Programming",
+        "Image":""
+    },
+    {
+        "facultyNmae":"Abdul",
+        "expert":"java",
+        "Image":""
+    },
+    {
+        "facultyNmae":"narendra",
+        "expert":"full stack developer",
+        "Image":""
+    }
+]

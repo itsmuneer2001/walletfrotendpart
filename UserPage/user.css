@@ -1,0 +1,328 @@
+#userHeader{
+    border: 2px solid;
+    background-color: greenyellow;
+    position: sticky;
+    top: 0px;
+    /* border-bottom:9px orange solid; */
+
+}
+#welcome{
+    font-size: 2px;
+    font-family: 'Rubik Puddles', cursive;
+    font-size: large;
+    word-spacing: 5px;
+    width: 86%;
+    color: white;
+
+}
+#jsp_logo{
+    position: relative;
+    float: right;
+    top: -50px;
+    height: 70px;
+    left: -20px;
+}
+#userpage_table{
+border-collapse: collapse;
+width: 80%;
+
+}
+tr{
+    background-color: white;
+    color: black;
+    font-family: 'Rubik Puddles', cursive
+    
+}
+
+.User_details_class{
+position: relative;
+top: 80px;
+height: 300px;
+border: 2px solid ;
+  border-radius: 50%;
+width: 40%;
+background-color:rgb(255, 225, 114); 
+}
+#div_circle{
+    border: 2x solid black;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin-top: 10px;
+}
+#user_icon{
+    margin-top: 10px;
+    
+    color: goldenrod;
+}
+.student{
+       font-family: 'Rubik Puddles', cursive; 
+       font-size: larger;
+       color:goldenrod ;
+}
+.student_values{
+    color: white;
+    font-family: 'Rubik Puddles', cursive; 
+}
+#create_Account:hover{
+    color: green;
+}
+#remove_CreateAccount{
+    position: relative;
+    top: 35px;
+    
+}
+#select_user{
+    height: 30px;
+    font-size: small;
+}
+.user_inputs{
+    height: 30px; 
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: larger;
+
+
+}
+#Proceed_btn{
+    font-size: larger;
+    /* width: 50px; */
+    background-color: blue;
+    color: white;
+}
+#eye_close{
+    position: relative;
+    right: 25px;
+    color: rgb(219, 211, 211);
+}
+#conform_close{
+    position: relative;
+    right: 25px;
+    color: rgb(219, 211, 211);
+}
+#mini_bal{
+    font-size: large;
+    font-family: 'Gochi Hand', cursive;
+}
+#user_detilas{
+    color: goldenrod;
+}
+.get_User_details{
+    color: goldenrod;
+    font-family: 'Rubik Puddles', cursive; 
+       font-size: larger;
+       color:goldenrod ;
+}
+.get_User_values{
+    color: white;
+}
+#get_Account:hover{
+ color: green;
+}
+#getId_error_messane{
+    position: relative;
+    top: 110px;
+    color: red;
+    font-family: 'Tsukimi Rounded', sans-serif;
+}
+
+/*----------------------- update css-------------------------------- */
+#update_Account:hover{
+    color: green;
+}
+#update_error_messane{
+    color: red;
+    position: relative;
+    top: 110px;
+    font-family: 'Tsukimi Rounded', sans-serif;
+}
+#remove_updateUser{
+    position: relative;
+    top: -5px;
+}
+#update_acc_col{
+    color: orange;
+    font-size: 20px;
+   
+}
+#update_details_color{
+    color: white;
+}
+
+/*--------------------------DELETE css-----------------------------*/
+#delete_Account:hover{
+  color: green;
+}
+#delete_error_messane{
+    color: red;
+    position: relative;
+    top: 60px;
+    font-family: 'Tsukimi Rounded', sans-serif;
+}
+#delete_account_div{
+    position: relative;
+    top: 50px;
+}
+.delete_inputs{
+    width: 300px;
+    height: 25px;
+    text-align: center;
+    font-size: larger;
+    outline: none;
+}
+#delete_btn{
+    width: 100px;
+    height: 30px;
+    color:white;
+    background-color: navy;
+}
+#eye_close_delete{
+    position: relative;
+    right: 20px;
+    color: rgb(219, 211, 211);
+    
+}
+#delete_account_password{
+    position: relative;
+    left: 9px;
+}
+/* --------------------------------------payment Account---------------------------------*/
+#payment_Account_remove{
+    position: relative;
+    top: 30px;
+}
+#payment_Account:hover{
+    color: green;
+}
+.payment_inputs{
+    font-size: larger;
+    width: 160px;
+    height: 35px;
+}                
+
+                  /*------------send Amount--------*/
+#send_Amount_Details{
+    position: relative;
+    top: 100px;
+}
+#send_error_messane{
+    color: red;
+    position: relative;
+    top: 10px;
+    font-family: 'Tsukimi Rounded', sans-serif;
+}
+.send_Amount_inputs{
+    width: 250px;
+    height: 25px;
+    text-align: center;
+    font-size: larger;
+    outline: none;
+}
+#send_Amount_btn{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: blue;
+}
+
+              /*--------------------Recieve_________________*/
+#Recieve_Amount_Details{
+    position: relative;
+    top: 100px;
+}
+#recieve_error_messane{
+    color: red;
+    position: relative;
+    top: 10px;
+    font-family: 'Tsukimi Rounded', sans-serif;
+}
+.recieve_Amount_inputs{
+    width: 250px;
+    height: 25px;
+    text-align: center;
+    font-size: larger;
+    outline: none;
+}
+#recieve_Amount_btn{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: blue;
+}
+/* -------------------Check Balance--------------------*/
+#check_Amount_Details{
+  position: relative;
+  top: 10px;
+}
+#check_bal_error_messane{
+    color: red;
+    position: relative;
+    top: 10px;
+    font-family: 'Tsukimi Rounded', sans-serif;
+}
+.check_Balance_Details{
+    color: orange;
+   
+}
+#check_balance_head{
+    color: orange;
+    font-size: 30px;
+}
+.check_Balance_values{
+    color: white;
+}
+    /************************update User**************/
+    
+    #update_user:hover{
+        color: green;
+    }
+    #remove_updateUser{
+        position: sticky;
+        top: 0px;
+    }
+    #update_form{
+        width: 40%;
+        background-color:bisque;
+        
+    }
+    #Login_div_form{
+        position:sticky ;
+        top:0px;
+    }
+    
+    input{
+        text-align: center;
+        outline: none;
+      border: 2px solid;
+        border-radius: 5px;
+        height: 25px;
+       
+    }
+    #sub_btn{
+        background-color: blue;
+        color: white;
+        height: 30px;
+    }
+    #log_btn{
+        background-color: blue;
+        color: white;
+        height: 30px;
+    }
+    
+    #eye_close{
+        position: relative;
+        right: 25px;
+        color: rgb(219, 211, 211);
+    }
+    #conform_close{
+        position: relative;
+        right: 25px;
+        color: rgb(219, 211, 211);
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    

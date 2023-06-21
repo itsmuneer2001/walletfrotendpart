@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Home Page</title>
+  <link rel="stylesheet" href="./Home page.css">
+  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+   <marquee behavior="alternate" direction="" scrollamount="25"> <h1>Welcome to JSpider</h1></marquee>
+   <img src="../Images/logo_jspiders.3b552d0.png" alt="" id="logo">
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#" style="background-color: cornflowerblue; border-radius: 5px; width: 15px; font-family: 'Cherry Bomb One', cursive;">About</a>
+        <select id="selectAbout" onclick="aboutSelectOninput()" onchange="aboutSelectOnchange()">
+            <option>JSPIDERS</option>
+            <option>CEO</option>
+            <option>FACULTIES</option>
+        </select>
+    </li>
+      <li><a href="#" style=" background-color: cornflowerblue; border-radius: 5px; width: 15px;font-family: 'Cherry Bomb One', cursive;">Services</a>
+        <select id="selectService" onclick="servicesSelectOninput()">
+            <option>JAVA FULLSTACK</option>
+            <option>PHYTHON FULLSTACK</option>
+        </select>
+    </li>
+      <li><a href="#" style=" background-color: cornflowerblue; border-radius: 5px; width: 15px;font-family: 'Cherry Bomb One', cursive;">Contact</a></li>
+      <li style="margin-left: 90%; position: relative; bottom: 25px;"><button type="submit" id="signupButton" onclick="signup()">Signup</button></li>
+    </ul>
+  </nav>
+  <section id="mainSection1">
+    <h2>About Me</h2>
+    <p>We have the most complete range of software training courses needed by the professionals around the world.Please do contact us for any queries related to the courses.</p>
+    <center style="position: relative; bottom:60px;" >
+        <div id="div2">
+            <h1 id="h12">SOFTWARE TRAINING ORGANISATION</h1>
+            <p>
+                JSpiders is the world’s ace software course training organization with an aim to bridge the gap between the demands of the industry and the curriculum of educational institutions. With centers across the Globe, the institute is a platform where young minds are given the opportunity to build successful careers.
+                <br>
+                <b>”JSpiders is a place where businesses find talent and dreams take flight."</b>
+            </p>
+        </div>
+    </center>
+</section>
+  <footer>
+    <p>&copy; 2023 My Home Page. All rights reserved.</p>
+  </footer>
+  <script src="./Home page.js"></script>
+</body>
+</html>

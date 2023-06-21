@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #827979;
+}
+.maindiv{
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.1);
+}
+h2{
+    text-align: center;
+    font-family: 'Dawning of a New Day', cursive;
+}
+.divform{
+    margin-bottom: 20px;
+}
+.divform input{
+    width: 99%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#button1{
+    width: 30%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+#button2{
+    width: 30%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 60%;
+    position: relative;
+    bottom: 57px;
+}
+
